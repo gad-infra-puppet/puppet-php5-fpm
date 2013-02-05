@@ -162,12 +162,12 @@ pm.max_children = 10
 ; available units are s(econd), m(inute), h(hour), or d(day)
 ; default: 0
 ;
-;request_slowlog_timeout = 0s
+request_slowlog_timeout = 30s
  
 ; The log file for slow requests
 ; default: /var/log/php5-fpm.log.slow
 ;
-;slowlog = /var/log/php5-fpm.log.slow
+slowlog = /var/log/php5-fpm.log.slow
  
 ; Set open file desc rlimit
 ; default: system defined value
